@@ -1,0 +1,16 @@
+.nav{
+    height: 90px;
+    width: 1389px;
+    background-color:yellow;
+    display: flex;
+   justify-content: flex-end;
+    align-items: center;
+
+}
+.nav-int{
+    height:30px;
+    width: 600px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
