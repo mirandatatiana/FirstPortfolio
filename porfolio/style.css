@@ -1,35 +1,26 @@
 .container-nav{
-    height: 90px;
-    width: 1389px;
+   height: 90px;
     background-color:yellow;
     display: flex;
    justify-content: flex-end;
     align-items: center;
 
 }
-.nav-int{
-    height:30px;
-    width: 600px;
-    background-color: aqua;
-    display: flex;
-    justify-content: space-around;
+
+    
 }
 .container-welcome{
-    height:600px;
-    width:1389px ;
+   
     background-color: blueviolet;
      display: flex;
 }
 .hi  {
-height:600px;
-width:694px;
 background-color: violet;
 border: 5px solid black;
 
 }
  .container-knowledge{
-  height: 1000px;
-  width: 1389px;
+ 
   background-color: cornflowerblue;
   display: flex;
   justify-content: center;
@@ -37,13 +28,17 @@ border: 5px solid black;
 
 }
 .sub-container-know{
-height: 600px;
-width: 900px;
+
 background-color: darkgoldenrod;
 display: flex;
 flex-wrap:wrap;
 justify-content: space-evenly;
 align-items: center;
+}
+.span{
+   
+    display: flex;
+    justify-items: center;
 }
 .gris{
      height: 250px;
@@ -52,3 +47,17 @@ align-items: center;
      border: 5px solid black;
      
   }
+  .container-phrase{
+    height: 500px;
+    display: flex;
+    background-color: crimson;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.phrase{
+    height:400px;
+    width:900px;
+    background-color: chocolate;
+}
