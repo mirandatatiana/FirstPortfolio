@@ -3,14 +3,15 @@
 }
 
 .nav{
-background-color: bisque;
-padding: 35px;
+background-color:#aebeda;
+padding: 15px;
+box-shadow:0px 0px 10px #A0AABB ;
 }
 .nav-int{
 display: flex;
 justify-content:flex-end;
-background-color: yellowgreen;
-padding:10px 10px ;
+
+padding:5px 5px ;
 }
 
 
@@ -21,14 +22,15 @@ padding:10px 10px ;
     margin: 10px 10px;
     text-decoration: none;
     box-sizing: border-box;
+    color: black;
     
  }
  
 
  .nav-links:active{
     
-    border-radius: 45%;
-     box-shadow: 0px 0px 2px blueviolet;
+    border-radius:25%;
+     box-shadow: 0px 0px 10PX blueviolet;
      box-sizing: border-box;
 
  }
