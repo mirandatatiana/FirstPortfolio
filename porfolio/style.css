@@ -6,11 +6,12 @@
 background-color:#aebeda;
 padding: 15px;
 box-shadow:0px 0px 10px #A0AABB ;
+border-radius: 10px;
 }
 .nav-int{
 display: flex;
 justify-content:flex-end;
-padding:5px 5px ;
+border-radius: 50%;
 }
 
 
@@ -28,8 +29,8 @@ padding:5px 5px ;
 
  .nav-links:active{
     
-    border-radius:25%;
-     box-shadow: 0px 0px 10PX blueviolet;
+    border-radius:10px;
+     box-shadow: 0px 0px 10px blueviolet;
      box-sizing: border-box;
 
  }
@@ -37,6 +38,10 @@ padding:5px 5px ;
  .contenedor{
     display: flex;
     background-color:#E1DBE6;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px #d5d0da ;
+
+
     
     
     }
@@ -47,18 +52,33 @@ padding:5px 5px ;
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow:0px 0px 10px #d5d0da ;
+
+
+        
     }
     .hi{
         display: flex;
         margin-left: 200px;
         flex-direction: column;
+       
+ 
+       
+
     }
     .welcome-img{
-      
+       display: flex;
         height: 950px;
         width: 950px;
         background-color: #E1DBE6;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow:0px 0px 10px #d5d0da ;
+
+    
+       
     
     }
      .miNombre{
@@ -76,7 +96,8 @@ padding:5px 5px ;
          .loQueHago{
             height:50px ;
              width: 160px;
-             border-radius: 20%;
+             border-radius: 10px;
+             
              background-color: #CE7885;
              display: flex;
              justify-content: center;
@@ -87,6 +108,10 @@ padding:5px 5px ;
         color:  rgb(105, 105, 105);
     }
      
+  .imagen{
+      height: 600px;
+      width: 600px;
+  }
 
 
 
