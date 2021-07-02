@@ -184,3 +184,20 @@ h2 {
 h3 {
     font-weight: 700;
 }
+
+.section-someone {
+    display: flex;
+    background-color: violet;
+    justify-content: center;
+}
+
+.contenedor-someone {
+    height: 400px;
+    width: 1000px;
+    background-color: #9b87ad;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
