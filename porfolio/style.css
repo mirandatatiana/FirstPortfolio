@@ -1,5 +1,6 @@
 * {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
 }
 
 .nav {
@@ -138,6 +139,7 @@ h2 {
 
 .column-two {
     display: flex;
+    box-sizing: border-box;
 }
 
 .blue {
@@ -150,6 +152,8 @@ h2 {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(173, 173, 173);
 }
 
 .red {
@@ -162,6 +166,7 @@ h2 {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    border: 1px solid rgb(173, 173, 173);
 }
 
 #svg {
@@ -171,33 +176,123 @@ h2 {
 
 .blue:hover {
     border-radius: 5px;
-    box-shadow: 0px 0px 10px blueviolet;
+    border: 1px solid #995cef;
     box-sizing: border-box;
+    color: #995cef;
+}
+
+.blue:active {
+    border-radius: 5px;
+    border: 1px solid #995cef;
+    box-sizing: border-box;
+    color: #995cef;
 }
 
 .red:hover {
     border-radius: 5px;
-    box-shadow: 0px 0px 10px blueviolet;
+    border: 1px solid #995cef;
     box-sizing: border-box;
+    color: #995cef;
 }
 
-h3 {
-    font-weight: 700;
+.red:active {
+    border-radius: 5px;
+    border: 1px solid #995cef;
+    box-sizing: border-box;
+    color: #995cef;
 }
 
 .section-someone {
     display: flex;
-    background-color: violet;
+    background-color: #c54b84;
     justify-content: center;
+    box-shadow: 0px 0px 15px #e6e6e6;
 }
 
 .contenedor-someone {
-    height: 400px;
+    height: 500px;
     width: 1000px;
-    background-color: #9b87ad;
+    background-color: #c54b84;
     margin: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.contenedor-imagen {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: #c54b84;
+    margin: 50px;
+}
+
+.imagen-img {
+    width: 100px;
+    height: 100px;
+}
+
+#someone {
+    margin: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.section-span {
+    height: 300px;
+    width: 600px;
+}
+
+.contenedor-boxes {
+    display: flex;
+    background-color: #d6cedd;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #e6e6e6;
+}
+
+.column-boxes {
+    width: 1200px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px;
+    padding: 20px;
+}
+
+.box-box {
+    height: 300px;
+    width: 330px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgb(173, 173, 173);
+    box-sizing: border-box;
+}
+
+.box-box:hover {
+    border-radius: 5px;
+    border: 1px solid #995cef;
+    box-sizing: border-box;
+    color: #995cef;
+}
+
+.box-box:active {
+    border-radius: 5px;
+    border: 1px solid #995cef;
+    box-sizing: border-box;
+    color: #995cef;
+}
+
+#imagen-box {
+    height: 300px;
+    width: 270px;
 }
