@@ -18,7 +18,7 @@
                 <a href="#about" class="nav-links">HOLA</a>
                 <a href="#about" class="nav-links">CONOCIMIENTOS</a>
                 <a href="#about" class="nav-links">PROYECTOS</a>
-                <a href="#about" class="nav-links">CONTACTOS</a>
+                <a href="#about" class="nav-links" id="contactos">CONTACTOS</a>
             </div>
         </nav>
         <div class="contenedor">
@@ -128,8 +128,8 @@
             </div>
         </section>
         <section>
-            <section class="contenedor-columns">
-                <div class="conocimientos">
+            <section class="contenedor-columns-one">
+                <div class="conocimientos-one">
 
                     <h2>Mis proyectos</h2>
                     <span class="section-span">
@@ -183,8 +183,7 @@
                             <div>
                                 <span class="section-span-two">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias perspiciatis
-         velit sunt rem iure. Nulla impedit ad quasi, tempora non earum dolorum illo dolor quam qui doloribus, sapiente hic placeat.
-    </span>
+         velit sunt rem iure. Nulla impedit ad quasi, tempora non earum dolorum illo dolor quam qui doloribus, sapiente hic pla</span>
                             </div>
                             <div class="social-media">
                                 <div class="twitter">
@@ -214,16 +213,73 @@
                     </div>
                     <div class="container-forms-two">
 
+
+                        <h2>Escribime</h2>
+
+                        <div class="forms-forms">
+                            <div class="formulario">
+                                <form action="forms" method="get" id="forms">
+                                    <label for="nombre" id="label">Nombre</label>
+                                    <input type="text" id="holder" placeholder="Ingrese su nombre">
+                                </form>
+                                <form action="forms" method="GET" id="forms">
+                                    <label for="apellido" id="label">Apellido</label>
+                                    <input type="text" name="apellido" id="holder" placeholder="Ingrese su apellid">
+                                </form>
+                            </div>
+                            <form action="forms" method="GET" id="forms">
+                                <label for="email" id="label">Email</label>
+                                <input type="mail" name="mail" id="holder" placeholder="Ingrese su Email">
+                            </form>
+                            <div class="textarea">
+                                <label for="textarea">Mensaje</label>
+                                <textarea name="text" id="" cols="30" rows="10" placeholder="Ingrese Mensaje"></textarea>
+                            </div>
+                            <div class="botton-container">
+                                <button type="submit" class="button">Enviar</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </section>
 
+    </main>
+    <footer>
+        <div class="container-fotter">
+            <div class="container-fotter-two">
 
-
-
+                <div class="nav-int-fotter">
+                    <a href="#about" class="nav-links">HOLA</a>
+                    <a href="#about" class="nav-links">CONOCIMIENTOS</a>
+                    <a href="#about" class="nav-links">PROYECTOS</a>
+                    <a href="#about" class="nav-links">CONTACTOS</a>
 
                 </div>
-            </section>
-    </main>
+                <div class="icons-footer">
+
+                    <div class="social-media-fotter">
+                        <div class="twitter">
+                            <i class="fab fa-twitter" id="icon-fotter"></i>
+
+                        </div>
+                        <div class="git">
+                            <i class="fab fa-github-alt" id="icon-fotter"></i>
+
+
+
+                        </div>
+                        <div class="in">
+                            <i class="fab fa-linkedin" id="icon-fotter"> </i>
+
+                        </div>
+                        <div class="mail">
+                            <i class="fas fa-envelope" id="icon-fotter"></i>
+                        </div>
+                    </div>
+                </div>
+                <span class="hechopor"> Hecho con ❤️ por Tatiana</span>
+            </div>
+    </footer>
 </body>
 
 </html>
