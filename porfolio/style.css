@@ -1,561 +1,515 @@
-                * {
-                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                    box-sizing: border-box;
-                }
-                
-                .nav {
-                    background-color: #5c9794;
-                    padding: 20px;
-                    box-shadow: 0px 0px 15px #568a87;
-                    border-radius: 10px;
-                    box-sizing: border-box;
-                }
-                
-                .nav-int {
-                    display: flex;
-                    justify-content: flex-end;
-                    transition: 1s;
-                }
-                
-                .nav-links {
-                    display: flex;
-                    padding: 5px 10px;
-                    margin: 10px 10px;
-                    text-decoration: none;
-                    box-sizing: border-box;
-                    color: black;
-                }
-                
-                #contactos {
-                    height: 35px;
-                    width: 140px;
-                    background-color: #d2d0d4;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    border-radius: 10px;
-                    border: 0;
-                    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
-                }
-                
-                #contactos:hover {
-                    background-color: #eeebf1;
-                }
-                
-                .nav-links:active {
-                    border-radius: 10px;
-                    box-sizing: border-box;
-                    border: 1px solid rgb(173, 173, 173);
-                    color: #bbb4c2
-                }
-                
-                .nav-links:hover {
-                    color: #bbb4c2;
-                }
-                
-                .contenedor {
-                    display: flex;
-                    background-color: #f1efef;
-                    border-radius: 10px;
-                }
-                
-                .welcome {
-                    height: 950px;
-                    width: 950px;
-                    background-color: #f1efef;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    border-radius: 10px;
-                }
-                
-                .hi {
-                    display: flex;
-                    margin-left: 200px;
-                    flex-direction: column;
-                }
-                
-                .welcome-img {
-                    display: flex;
-                    height: 950px;
-                    width: 950px;
-                    background-color: #f1efef;
-                    flex-direction: column;
-                    justify-content: center;
-                    border-radius: 10px;
-                }
-                
-                .miNombre {
-                    font-size: 60px;
-                    margin-bottom: 5px;
-                    margin-top: 0px;
-                    padding: 0px;
-                }
-                
-                .miPersona {
-                    margin-left: 10px;
-                    color: rgb(105, 105, 105);
-                }
-                
-                .loQueHago {
-                    height: 50px;
-                    width: 160px;
-                    background-color: #5c9794;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    padding: 10px;
-                    border-radius: 15px;
-                    border: 0;
-                    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
-                    font-weight: 900;
-                    color: #f1efef;
-                }
-                
-                .loQueHago:hover {
-                    background-color: #568a87;
-                    color: #bbb4c2;
-                }
-                
-                a {
-                    text-decoration: none;
-                    color: #f1efef;
-                }
-                
-                h2 {
-                    font-size: 40px;
-                    font-weight: 900;
-                }
-                
-                .imagen {
-                    height: 600px;
-                    width: 600px;
-                }
-                
-                .contenedor-columns {
-                    display: flex;
-                    background-color: #d2d0d4;
-                    flex-direction: column;
-                    align-items: center;
-                    border-radius: 10px;
-                    box-shadow: 0px 0px 15px #bbb4c2;
-                }
-                
-                .conocimientos {
-                    width: 700px;
-                    height: 200px;
-                    background-color: #d2d0d4;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
-                }
-                
-                .contenedor-primary {
-                    height: 500px;
-                    width: 1000px;
-                    background-color: #d2d0d4;
-                    margin: 30px 50px 100px;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
-                }
-                
-                .column-one {
-                    display: flex;
-                }
-                
-                .column-two {
-                    display: flex;
-                    box-sizing: border-box;
-                }
-                
-                .blue {
-                    height: 229px;
-                    width: 260px;
-                    background-color: #f1efef;
-                    margin: 15px;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    border-radius: 10px;
-                    box-sizing: border-box;
-                    border: 1px solid rgb(173, 173, 173);
-                    transition: 1s;
-                }
-                
-                .red {
-                    height: 229px;
-                    width: 260px;
-                    background-color: #f1efef;
-                    margin: 15px;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    border-radius: 10px;
-                    border: 1px solid rgb(173, 173, 173);
-                    transition: 1s;
-                }
-                
-                #svg {
-                    height: 70px;
-                    width: 70px;
-                }
-                
-                .blue:hover {
-                    border-radius: 5px;
-                    border: 1px solid #5c9794;
-                    box-sizing: border-box;
-                    color: #5c9794;
-                }
-                
-                .blue:active {
-                    border-radius: 5px;
-                    border: 1px solid #5c9794;
-                    box-sizing: border-box;
-                    color: #5c9794;
-                }
-                
-                .red:hover {
-                    border-radius: 5px;
-                    border: 1px solid #5c9794;
-                    box-sizing: border-box;
-                    color: #5c9794;
-                }
-                
-                .red:active {
-                    border-radius: 5px;
-                    border: 1px solid #5c9794;
-                    box-sizing: border-box;
-                    color: #5c9794;
-                }
-                
-                .section-someone {
-                    display: flex;
-                    background-color: #5c9794;
-                    justify-content: center;
-                    flex-direction: column;
-                    align-items: center;
-                    border-radius: 10px;
-                    box-shadow: 0px 0px 15px #65a8a5;
-                }
-                
-                .contenedor-someone {
-                    height: 500px;
-                    width: 1000px;
-                    background-color: #5c9794;
-                    margin: 5px;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
-                }
-                
-                .contenedor-imagen {
-                    display: flex;
-                    width: 100px;
-                    height: 100px;
-                    background-color: #5c9794;
-                    margin: 50px;
-                }
-                
-                .imagen-img {
-                    width: 100px;
-                    height: 100px;
-                }
-                
-                #someone {
-                    margin: 50px;
-                    font-size: 50px;
-                    font-weight: bold;
-                }
-                
-                .section-span {
-                    height: 300px;
-                    width: 600px;
-                }
-                
-                .contenedor-columns-one {
-                    display: flex;
-                    background-color: #f1efef;
-                    flex-direction: column;
-                    align-items: center;
-                    border-radius: 10px;
-                }
-                
-                .conocimientos-one {
-                    width: 700px;
-                    height: 200px;
-                    background-color: #f1efef;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
-                }
-                
-                .column-boxes {
-                    width: 1200px;
-                    height: 1000px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    align-items: center;
-                    justify-content: space-between;
-                    background-color: #f1efef;
-                    margin: 12px;
-                    padding: 20px;
-                }
-                
-                .box-box {
-                    height: 300px;
-                    width: 330px;
-                    margin: 15px;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    border-radius: 10px;
-                    border: 1px solid rgb(173, 173, 173);
-                    box-sizing: border-box;
-                    transition: 1s;
-                }
-                
-                .box-box:hover {
-                    border-radius: 5px;
-                    border: 1px solid #5c9794;
-                    box-sizing: border-box;
-                    color: #5c9794;
-                }
-                
-                .box-box:active {
-                    border-radius: 5px;
-                    border: 1px solid #5c9794;
-                    box-sizing: border-box;
-                    color: #5c9794;
-                }
-                
-                #imagen-box {
-                    height: 300px;
-                    width: 270px;
-                }
-                
-                .forms {
-                    display: flex;
-                    background-color: #d2d0d4;
-                    align-items: center;
-                    justify-content: center;
-                    border-radius: 10px;
-                }
-                
-                .container-forms {
-                    background-color: #f1efef;
-                    width: 1100px;
-                    height: 600px;
-                    display: flex;
-                    align-items: center;
-                    border-radius: 10px;
-                    margin: 30px;
-                    padding: 20px;
-                }
-                
-                .container-forms-one {
-                    width: 900px;
-                    height: 600px;
-                    display: flex;
-                    background-color: #f1efef;
-                    flex-direction: column;
-                    align-items: center;
-                    margin: 50px;
-                    border-radius: 10px;
-                }
-                
-                .container-forms-two {
-                    width: 900px;
-                    height: 600px;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    border-radius: 10px;
-                }
-                
-                .conctac {
-                    height: 200px;
-                    width: 400px;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                }
-                
-                .social-media {
-                    flex-direction: column;
-                    padding-top: 40px;
-                }
-                
-                .twitter,
-                .git,
-                .in,
-                .mail {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
-                
-                .fab,
-                .fas {
-                    display: flex;
-                    color: #5c9794;
-                    border-radius: 50%;
-                    height: 40px;
-                    width: 40px;
-                    justify-content: center;
-                    align-items: center;
-                    font-size: 25px;
-                    margin: 10px;
-                    box-sizing: border-box;
-                    transition: 1s;
-                }
-                
-                .fab:hover {
-                    background-color: #5c9794;
-                    color: #f1efef;
-                }
-                
-                .fas:hover {
-                    background-color: #5c9794;
-                    color: #5c9794;
-                }
-                
-                .forms-forms {
-                    display: flex;
-                    justify-content: flex-start;
-                    flex-direction: column;
-                }
-                
-                .formulario {
-                    display: flex;
-                    flex-direction: row;
-                }
-                
-                #forms {
-                    display: flex;
-                    flex-direction: column;
-                }
-                
-                #label {
-                    margin-left: 10px;
-                }
-                
-                #holder {
-                    margin: 10px;
-                }
-                
-                .textarea {
-                    margin: 10px;
-                }
-                
-                textarea {
-                    width: 100%;
-                    resize: vertical;
-                    padding: 10px;
-                    border-radius: 15px;
-                    border: 0;
-                    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
-                    height: 150px;
-                    margin-top: 15px;
-                }
-                
-                textarea:focus {
-                    box-shadow: 4px 4px 10px #568a87;
-                    border: 1px solid #568a87;
-                }
-                
-                .label {
-                    margin: 10px;
-                }
-                
-                input {
-                    padding: 10px;
-                    border-radius: 15px;
-                    border: 0;
-                    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
-                }
-                
-                input:focus {
-                    box-shadow: 4px 4px 10px #568a87;
-                    border: 1px solid #568a87;
-                }
-                
-                .botton-container {
-                    margin: 10px;
-                }
-                
-                .button {
-                    height: 50px;
-                    width: 160px;
-                    border-radius: 10px;
-                    background-color: #5c9794;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    padding: 10px;
-                    border: 0;
-                    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
-                    font-weight: 900;
-                    color: #f1efef;
-                    transition: 1s;
-                }
-                
-                .button:hover {
-                    background-color: #6faca8;
-                    color: #bbb4c2;
-                }
-                
-                .container-fotter {
-                    background-color: #5c9794;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-                    border-radius: 10px;
-                    box-shadow: 0px 0px 15px #65a8a5;
-                }
-                
-                .container-fotter-two {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    height: 300px;
-                    width: 600px;
-                }
-                
-                .social-media-fotter {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: center;
-                }
-                
-                #icon-fotter {
-                    background-color: #f1efef;
-                    border: 1px solid rgb(173, 173, 173);
-                    transition: 1s;
-                    color: #5c9794;
-                }
-                
-                #icon-fotter:hover {
-                    border: 1px solid rgb(173, 173, 173);
-                    background-color: #5c9794;
-                    color: #f1efef;
-                }
-                
-                .nav-int-fotter {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
-                
-                .hechopor {
-                    padding: 20px;
-                }
+                                                                                                                                                                                                                                                                                                                        * {
+                                                                                                                                                                                                                                                                                                                            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                                                                                                                                                                                                                                                                                                            box-sizing: border-box;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .nav {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            background-color: #5c9794;
+                                                                                                                                                                                                                                                                                                                            padding: 20px;
+                                                                                                                                                                                                                                                                                                                            box-shadow: 0px 0px 15px #568a87;
+                                                                                                                                                                                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                                                                                                                                                                                            box-sizing: border-box;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .nav-int {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            transition: 1s;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .nav-links {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            padding: 5px 10px;
+                                                                                                                                                                                                                                                                                                                            margin: 10px 10px;
+                                                                                                                                                                                                                                                                                                                            text-decoration: none;
+                                                                                                                                                                                                                                                                                                                            box-sizing: border-box;
+                                                                                                                                                                                                                                                                                                                            color: black;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        #contactos {
+                                                                                                                                                                                                                                                                                                                            height: 35px;
+                                                                                                                                                                                                                                                                                                                            width: 130px;
+                                                                                                                                                                                                                                                                                                                            background-color: #d2d0d4;
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                                                                                                                                                                                            border: 0;
+                                                                                                                                                                                                                                                                                                                            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        #contactos:hover {
+                                                                                                                                                                                                                                                                                                                            background-color: #eeebf1;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .nav-links:active {
+                                                                                                                                                                                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                                                                                                                                                                                            box-sizing: border-box;
+                                                                                                                                                                                                                                                                                                                            border: 1px solid rgb(173, 173, 173);
+                                                                                                                                                                                                                                                                                                                            color: #bbb4c2
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .nav-links:hover {
+                                                                                                                                                                                                                                                                                                                            color: #bbb4c2;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .contenedor {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            background-color: #f1efef;
+                                                                                                                                                                                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            padding: 110px 40px 130px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .welcome {
+                                                                                                                                                                                                                                                                                                                            background-color: #f1efef;
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                                                                                                                                                                                            padding: 20px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .hi {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            margin-left: 200px;
+                                                                                                                                                                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .welcome-img {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            background-color: #f1efef;
+                                                                                                                                                                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .miNombre {
+                                                                                                                                                                                                                                                                                                                            font-size: 60px;
+                                                                                                                                                                                                                                                                                                                            margin-bottom: 5px;
+                                                                                                                                                                                                                                                                                                                            margin-top: 0px;
+                                                                                                                                                                                                                                                                                                                            padding: 0px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .miPersona {
+                                                                                                                                                                                                                                                                                                                            margin-left: 10px;
+                                                                                                                                                                                                                                                                                                                            color: rgb(105, 105, 105);
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .loQueHago {
+                                                                                                                                                                                                                                                                                                                            height: 50px;
+                                                                                                                                                                                                                                                                                                                            width: 160px;
+                                                                                                                                                                                                                                                                                                                            background-color: #5c9794;
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            padding: 10px;
+                                                                                                                                                                                                                                                                                                                            border-radius: 15px;
+                                                                                                                                                                                                                                                                                                                            border: 0;
+                                                                                                                                                                                                                                                                                                                            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+                                                                                                                                                                                                                                                                                                                            font-weight: 900;
+                                                                                                                                                                                                                                                                                                                            color: #f1efef;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .loQueHago:hover {
+                                                                                                                                                                                                                                                                                                                            background-color: #568a87;
+                                                                                                                                                                                                                                                                                                                            color: #bbb4c2;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        a {
+                                                                                                                                                                                                                                                                                                                            text-decoration: none;
+                                                                                                                                                                                                                                                                                                                            color: #f1efef;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        h2 {
+                                                                                                                                                                                                                                                                                                                            font-size: 40px;
+                                                                                                                                                                                                                                                                                                                            font-weight: 900;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .imagen {
+                                                                                                                                                                                                                                                                                                                            height: 40%;
+                                                                                                                                                                                                                                                                                                                            width: 40%;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .contenedor-columns {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            background-color: #d2d0d4;
+                                                                                                                                                                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                                                                                                                                                                                            box-shadow: 0px 0px 15px #b5b3b8;
+                                                                                                                                                                                                                                                                                                                            padding: 90px 40px 130px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .conocimientos {
+                                                                                                                                                                                                                                                                                                                            background-color: #d2d0d4;
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                            padding: 20px 40px 50px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .contenedor-primary {
+                                                                                                                                                                                                                                                                                                                            width: 1000px;
+                                                                                                                                                                                                                                                                                                                            background-color: #d2d0d4;
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                            flex-wrap: wrap;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .primary-boxes {
+                                                                                                                                                                                                                                                                                                                            width: 260px;
+                                                                                                                                                                                                                                                                                                                            padding: 40px;
+                                                                                                                                                                                                                                                                                                                            margin: 10px;
+                                                                                                                                                                                                                                                                                                                            background-color: #f1efef;
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                                                                                                                                                                                            box-sizing: border-box;
+                                                                                                                                                                                                                                                                                                                            border: 1px solid rgb(173, 173, 173);
+                                                                                                                                                                                                                                                                                                                            transition: 1s;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        #svg {
+                                                                                                                                                                                                                                                                                                                            height: 70px;
+                                                                                                                                                                                                                                                                                                                            width: 70px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .primary-boxes:hover {
+                                                                                                                                                                                                                                                                                                                            border-radius: 5px;
+                                                                                                                                                                                                                                                                                                                            border: 1px solid #5c9794;
+                                                                                                                                                                                                                                                                                                                            box-sizing: border-box;
+                                                                                                                                                                                                                                                                                                                            color: #5c9794;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .primary-boxes:active {
+                                                                                                                                                                                                                                                                                                                            border-radius: 5px;
+                                                                                                                                                                                                                                                                                                                            border: 1px solid #5c9794;
+                                                                                                                                                                                                                                                                                                                            box-sizing: border-box;
+                                                                                                                                                                                                                                                                                                                            color: #5c9794;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .section-someone {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            background-color: #5c9794;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                                                                                                                                                                                            box-shadow: 0px 0px 15px #65a8a5;
+                                                                                                                                                                                                                                                                                                                            padding: 10px 330px 10px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .contenedor-someone {
+                                                                                                                                                                                                                                                                                                                            background-color: #5c9794;
+                                                                                                                                                                                                                                                                                                                            margin: 5px;
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .contenedor-imagen {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            width: 100px;
+                                                                                                                                                                                                                                                                                                                            height: 100px;
+                                                                                                                                                                                                                                                                                                                            background-color: #5c9794;
+                                                                                                                                                                                                                                                                                                                            margin: 50px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .imagen-img {
+                                                                                                                                                                                                                                                                                                                            width: 100px;
+                                                                                                                                                                                                                                                                                                                            height: 100px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        #someone {
+                                                                                                                                                                                                                                                                                                                            margin: 50px;
+                                                                                                                                                                                                                                                                                                                            font-size: 50px;
+                                                                                                                                                                                                                                                                                                                            font-weight: bold;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .contenedor-columns-one {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            background-color: #f1efef;
+                                                                                                                                                                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                                                                                                                                                                                            box-shadow: 0px 0px 15px #cbcace;
+                                                                                                                                                                                                                                                                                                                            padding: 50px 250px 50px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .conocimientos-one {
+                                                                                                                                                                                                                                                                                                                            width: 700px;
+                                                                                                                                                                                                                                                                                                                            height: 200px;
+                                                                                                                                                                                                                                                                                                                            background-color: #f1efef;
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .column-boxes {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            flex-wrap: wrap;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            background-color: #f1efef;
+                                                                                                                                                                                                                                                                                                                            padding: 5px 150px 5px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .box-box {
+                                                                                                                                                                                                                                                                                                                            height: 300px;
+                                                                                                                                                                                                                                                                                                                            width: 330px;
+                                                                                                                                                                                                                                                                                                                            margin: 15px;
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            padding: 15px;
+                                                                                                                                                                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                                                                                                                                                                                            border: 1px solid rgb(173, 173, 173);
+                                                                                                                                                                                                                                                                                                                            box-sizing: border-box;
+                                                                                                                                                                                                                                                                                                                            transition: 1s;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .box-box:hover {
+                                                                                                                                                                                                                                                                                                                            border-radius: 5px;
+                                                                                                                                                                                                                                                                                                                            border: 1px solid #5c9794;
+                                                                                                                                                                                                                                                                                                                            box-sizing: border-box;
+                                                                                                                                                                                                                                                                                                                            color: #5c9794;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .box-box:active {
+                                                                                                                                                                                                                                                                                                                            border-radius: 5px;
+                                                                                                                                                                                                                                                                                                                            border: 1px solid #5c9794;
+                                                                                                                                                                                                                                                                                                                            box-sizing: border-box;
+                                                                                                                                                                                                                                                                                                                            color: #5c9794;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        #imagen-box {
+                                                                                                                                                                                                                                                                                                                            height: 300px;
+                                                                                                                                                                                                                                                                                                                            width: 270px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .forms {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            background-color: #d2d0d4;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                                                                                                                                                                                            box-shadow: 0px 0px 15px #a2a0a5;
+                                                                                                                                                                                                                                                                                                                            padding: 60px 250px 60px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .container-forms {
+                                                                                                                                                                                                                                                                                                                            background-color: #f1efef;
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                                                                                                                                                                                            padding: 60px 50px 60px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .container-forms-one,
+                                                                                                                                                                                                                                                                                                                        .container-forms-two {
+                                                                                                                                                                                                                                                                                                                            height: 500px;
+                                                                                                                                                                                                                                                                                                                            width: 500px;
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .social-media {
+                                                                                                                                                                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            padding-top: 40px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .twitter,
+                                                                                                                                                                                                                                                                                                                        .git,
+                                                                                                                                                                                                                                                                                                                        .in,
+                                                                                                                                                                                                                                                                                                                        .mail {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .fab,
+                                                                                                                                                                                                                                                                                                                        .fas {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            color: #5c9794;
+                                                                                                                                                                                                                                                                                                                            border-radius: 50%;
+                                                                                                                                                                                                                                                                                                                            height: 40px;
+                                                                                                                                                                                                                                                                                                                            width: 40px;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            font-size: 25px;
+                                                                                                                                                                                                                                                                                                                            margin: 10px;
+                                                                                                                                                                                                                                                                                                                            box-sizing: border-box;
+                                                                                                                                                                                                                                                                                                                            transition: 1s;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .fab:hover {
+                                                                                                                                                                                                                                                                                                                            background-color: #5c9794;
+                                                                                                                                                                                                                                                                                                                            color: #f1efef;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .fas:hover {
+                                                                                                                                                                                                                                                                                                                            background-color: #5c9794;
+                                                                                                                                                                                                                                                                                                                            color: #f1efef;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .forms-forms {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            justify-content: flex-start;
+                                                                                                                                                                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .formulario {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            flex-direction: row;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        #forms {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        #label {
+                                                                                                                                                                                                                                                                                                                            margin-left: 10px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        #holder {
+                                                                                                                                                                                                                                                                                                                            margin: 10px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .textarea {
+                                                                                                                                                                                                                                                                                                                            margin: 10px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        textarea {
+                                                                                                                                                                                                                                                                                                                            width: 100%;
+                                                                                                                                                                                                                                                                                                                            resize: vertical;
+                                                                                                                                                                                                                                                                                                                            padding: 10px;
+                                                                                                                                                                                                                                                                                                                            border-radius: 15px;
+                                                                                                                                                                                                                                                                                                                            border: 0;
+                                                                                                                                                                                                                                                                                                                            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+                                                                                                                                                                                                                                                                                                                            height: 150px;
+                                                                                                                                                                                                                                                                                                                            margin-top: 15px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        textarea:focus {
+                                                                                                                                                                                                                                                                                                                            box-shadow: 4px 4px 10px #568a87;
+                                                                                                                                                                                                                                                                                                                            border: 1px solid #568a87;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .label {
+                                                                                                                                                                                                                                                                                                                            margin: 10px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        input {
+                                                                                                                                                                                                                                                                                                                            padding: 10px;
+                                                                                                                                                                                                                                                                                                                            border-radius: 15px;
+                                                                                                                                                                                                                                                                                                                            border: 0;
+                                                                                                                                                                                                                                                                                                                            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        input:focus {
+                                                                                                                                                                                                                                                                                                                            box-shadow: 4px 4px 10px #568a87;
+                                                                                                                                                                                                                                                                                                                            border: 1px solid #568a87;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .botton-container {
+                                                                                                                                                                                                                                                                                                                            margin: 10px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .button {
+                                                                                                                                                                                                                                                                                                                            height: 50px;
+                                                                                                                                                                                                                                                                                                                            width: 160px;
+                                                                                                                                                                                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                                                                                                                                                                                            background-color: #5c9794;
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            padding: 10px;
+                                                                                                                                                                                                                                                                                                                            border: 0;
+                                                                                                                                                                                                                                                                                                                            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+                                                                                                                                                                                                                                                                                                                            font-weight: 900;
+                                                                                                                                                                                                                                                                                                                            color: #f1efef;
+                                                                                                                                                                                                                                                                                                                            transition: 1s;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .button:hover {
+                                                                                                                                                                                                                                                                                                                            background-color: #6faca8;
+                                                                                                                                                                                                                                                                                                                            color: #bbb4c2;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .container-fotter {
+                                                                                                                                                                                                                                                                                                                            background-color: #5c9794;
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                                                                                                                                                                                            box-shadow: 0px 0px 15px #65a8a5;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .container-fotter-two {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                            height: 300px;
+                                                                                                                                                                                                                                                                                                                            width: 600px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .social-media-fotter {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            flex-direction: row;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        #icon-fotter {
+                                                                                                                                                                                                                                                                                                                            background-color: #f1efef;
+                                                                                                                                                                                                                                                                                                                            border: 1px solid rgb(173, 173, 173);
+                                                                                                                                                                                                                                                                                                                            transition: 1s;
+                                                                                                                                                                                                                                                                                                                            color: #5c9794;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        #icon-fotter:hover {
+                                                                                                                                                                                                                                                                                                                            border: 1px solid rgb(173, 173, 173);
+                                                                                                                                                                                                                                                                                                                            background-color: #5c9794;
+                                                                                                                                                                                                                                                                                                                            color: #f1efef;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .nav-int-fotter {
+                                                                                                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        .hechopor {
+                                                                                                                                                                                                                                                                                                                            padding: 20px;
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                        @media screen and (max-width:1000px) and (min-width:500px) {
+                                                                                                                                                                                                                                                                                                                            .contenedor,
+                                                                                                                                                                                                                                                                                                                            .contenedor-primary,
+                                                                                                                                                                                                                                                                                                                            .container-forms,
+                                                                                                                                                                                                                                                                                                                            .section-someone {
+                                                                                                                                                                                                                                                                                                                                flex-direction: column;
+                                                                                                                                                                                                                                                                                                                                max-width: 100%;
+                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                            .container-forms {
+                                                                                                                                                                                                                                                                                                                                align-items: center;
+                                                                                                                                                                                                                                                                                                                                justify-content: center;
+                                                                                                                                                                                                                                                                                                                                background-color: #d2d0d4;
+                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                            .social-media {
+                                                                                                                                                                                                                                                                                                                                flex-direction: row;
+                                                                                                                                                                                                                                                                                                                                flex-wrap: wrap;
+                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                        }
