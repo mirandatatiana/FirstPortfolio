@@ -1,4 +1,7 @@
-Entrega del Primer Porfolio del modulo1 en Ada.
-Se encuentran archivos HTML y CSS, y todo lo visto en el primero modulo del curso de Desarrollo Front-end
+Hello there! This is my very firt porfolio. Who I made my first approch in front end. My Professor give some corrections and of course I change a lit bit all, but you can see all that changes. I almost dont put this work in this git for you to see, but I think that everbody start for the begginies so this reposositary has
 
+HTML5
+CSS
+
+Enjoy the ride 
 Tatiana Miramda
