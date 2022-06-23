@@ -14,4 +14,4 @@ Link here https://mirandatatiana.github.io/modulo1Ada/
 <br>
 Enjoy the ride 
 <br>
-Tatiana Miramda
+Tatiana Miranda
