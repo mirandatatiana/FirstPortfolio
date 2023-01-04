@@ -33,11 +33,6 @@
   padding: 30px;
 }
 
-/* .welcome-section {
-  display: flex;
-  flex-direction: column;
-} */
-
 .button-hero {
   height: 50px;
   width: 160px;
@@ -127,7 +122,6 @@ h2 {
 }
 
 /* CONTACTS */
-
 .forms {
   display: flex;
   background-color: #d2d0d4;
@@ -250,7 +244,6 @@ input:focus {
 }
 
 /* FOTTER */
-
 .container-fotter {
   background-color: #345555;
   display: flex;
